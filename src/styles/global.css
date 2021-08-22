@@ -16,3 +16,9 @@
         background-repeat: no-repeat;
     }
 }
+
+@layer utilities{
+    .bg-intro{
+        background-color: #212121
+    }
+}
