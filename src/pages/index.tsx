@@ -8,7 +8,9 @@ import Intro from "../components/Intro"
 const IndexPage = () => (
   <Layout>
     <Seo title="Welcome" />
-    <Intro />
+    <div className="py-10">
+      <Intro />
+    </div>
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

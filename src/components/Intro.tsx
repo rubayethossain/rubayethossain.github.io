@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Intro = (): JSX.Element => {
   return (
-    <header className="mx-auto max-w-screen-lg rounded-2xl rounded-tr-none rounded-bl-none my-10 py-8 bg-gray-800 shadow-md grid grid-cols-3 text-white">
+    <header className="mx-auto max-w-screen-lg rounded-2xl rounded-tr-none rounded-bl-none py-8 bg-gray-800 shadow-md grid grid-cols-3 text-white">
       <div className="text-center px-5 border-r-2 border-gray-700">
         <StaticImage
           src="../images/rubayet.jpg"
