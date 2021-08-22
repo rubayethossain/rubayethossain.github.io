@@ -24,14 +24,14 @@ const Intro = (): JSX.Element => {
       </div>
 
       <div className="px-5">
-        <div>
+        <div className="mb-4">
           <h3>Location</h3>
           <p>
             <strong>Dhaka, Bangladesh</strong>
           </p>
         </div>
 
-        <div>
+        <div className="mb-4">
           <h3>Email</h3>
           <p>
             <strong>hi@rubayet.dev</strong>
