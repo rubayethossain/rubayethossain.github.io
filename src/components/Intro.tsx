@@ -1,5 +1,12 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faTwitter,
+  faGithub,
+  faMedium,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons"
 
 const Intro = (): JSX.Element => {
   return (
@@ -40,10 +47,18 @@ const Intro = (): JSX.Element => {
 
         <div>
           <ul>
-            <li className="inline-block mr-2">Twitter</li>
-            <li className="inline-block mx-2">Github</li>
-            <li className="inline-block mx-2">Linkedin</li>
-            <li className="inline-block ml-2">Medium</li>
+            <li className="inline-block mx-2">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </li>
+            <li className="inline-block mr-2">
+              <FontAwesomeIcon icon={faTwitter} />
+            </li>
+            <li className="inline-block mx-2">
+              <FontAwesomeIcon icon={faGithub} />
+            </li>
+            <li className="inline-block ml-2">
+              <FontAwesomeIcon icon={faMedium} />
+            </li>
           </ul>
         </div>
       </div>
