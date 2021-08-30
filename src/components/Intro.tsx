@@ -5,7 +5,7 @@ import {
   faTwitter,
   faGithub,
   faMedium,
-  faLinkedin,
+  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons"
 
 const Intro = (): JSX.Element => {
@@ -47,10 +47,10 @@ const Intro = (): JSX.Element => {
 
         <div>
           <ul>
-            <li className="inline-block mx-2">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </li>
             <li className="inline-block mr-2">
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </li>
+            <li className="inline-block mx-2">
               <FontAwesomeIcon icon={faTwitter} />
             </li>
             <li className="inline-block mx-2">
