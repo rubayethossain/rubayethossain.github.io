@@ -1,26 +1,32 @@
-import { Link } from "gatsby"
+import { navigate } from "gatsby"
 import React from "react"
+import { NavItem } from "./Buttons"
 
-interface Props {}
+const Nav = () => {
+  const changeRoute = (path: string): void => {
+    console.log(path)
+    navigate(path)
+  }
 
-const Nav = (props: Props) => {
   return (
-    <aside className="w-32 bg-gray-300">
+    <aside className="w-32">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavItem onClick={changeRoute.bind(null, "/")}>Home</NavItem>
         </li>
 
         <li>
-          <Link to="/">Works</Link>
+          <NavItem onClick={changeRoute.bind(null, "/works")}>Works</NavItem>
         </li>
 
         <li>
-          <Link to="/">Resume</Link>
+          <NavItem onClick={changeRoute.bind(null, "/resume")}>Resume</NavItem>
         </li>
 
         <li>
-          <Link to="/">Contact</Link>
+          <NavItem onClick={changeRoute.bind(null, "/contact")}>
+            Contact
+          </NavItem>
         </li>
       </ul>
     </aside>
