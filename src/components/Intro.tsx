@@ -10,27 +10,28 @@ import {
 
 const Intro = (): JSX.Element => {
   return (
-    <header className="mx-auto max-w-screen-lg rounded-2xl rounded-tr-none rounded-bl-none py-8 bg-intro shadow-md grid grid-cols-3 text-white">
-      <div className="text-center px-5 border-r-2 border-gray-700">
+    <header className="mx-auto max-w-screen-lg rounded-2xl rounded-tr-none rounded-bl-none shadow-md bg-white flex overflow-hidden">
+      <div className="flex">
         <StaticImage
           src="../images/rubayet.jpg"
-          width={115}
+          width={300}
           quality={85}
           alt="Md. Ruabyet Hossain"
-          className="rounded-full border-2 mb-3"
+          className=""
         />
-        <h1 className="text-2xl font-bold">Md. Rubayet Hossain</h1>
-        <h2 className="text-xl font-semibold">Frontend Developer</h2>
+        <div className="p-8 space-y-4">
+          <h1 className="text-3xl font-bold">Md. Rubayet Hossain</h1>
+          <h2 className="text-2xl font-semibold">
+            Professional Frontend Developer
+          </h2>
+          <p className="font-semibold text-base">
+            Passionate Frontend Developer with 5+ years of professional
+            experience! Love React, JavaScript, HTML & CSS.
+          </p>
+        </div>
       </div>
 
-      <div className="h-full table px-5 border-r-2 border-gray-700">
-        <p className="italic text-center my-auto table-cell align-middle">
-          Passionate Frontend Developer with 5+ years of professional
-          experience! Love React, JavaScript, HTML & CSS.
-        </p>
-      </div>
-
-      <div className="px-5">
+      <div className="p-8 w-80">
         <div className="mb-4">
           <h3>Location</h3>
           <p>
