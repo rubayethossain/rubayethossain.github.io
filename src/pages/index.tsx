@@ -8,6 +8,7 @@ import Intro from "../components/Intro"
 const IndexPage = () => (
   <Layout topSection={<Intro />}>
     <Seo title="Welcome" />
+    Main Content
   </Layout>
 )
 
