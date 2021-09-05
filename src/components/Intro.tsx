@@ -21,10 +21,10 @@ const Intro = (): JSX.Element => {
         />
         <div className="p-8 space-y-4">
           <h1 className="text-3xl font-bold">Md. Rubayet Hossain</h1>
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-semibold ">
             Professional Frontend Developer
           </h2>
-          <p className="font-semibold text-base">
+          <p className="font-semibold text-base text-gray-600">
             Passionate Frontend Developer with 5+ years of professional
             experience! Love React, JavaScript, HTML & CSS.
           </p>
@@ -34,12 +34,12 @@ const Intro = (): JSX.Element => {
       <div className="p-8 w-80">
         <div className="mb-4">
           <h3>Location</h3>
-          <p className="font-semibold">Dhaka, Bangladesh</p>
+          <p className="font-semibold text-gray-600">Dhaka, Bangladesh</p>
         </div>
 
         <div className="mb-4">
           <h3>Email</h3>
-          <p className="font-semibold">hi@rubayet.dev</p>
+          <p className="font-semibold text-gray-600">hi@rubayet.dev</p>
         </div>
 
         <div>
