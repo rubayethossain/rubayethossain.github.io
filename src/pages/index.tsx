@@ -6,19 +6,8 @@ import Seo from "../components/seo"
 import Intro from "../components/Intro"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout topSection={<Intro />}>
     <Seo title="Welcome" />
-    <div className="py-10">
-      <Intro />
-    </div>
-    {/* <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      className="mb-6"
-    /> */}
   </Layout>
 )
 

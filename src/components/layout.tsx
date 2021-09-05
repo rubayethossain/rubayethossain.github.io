@@ -9,13 +9,15 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Nav from "./Nav"
 
 type Props = {
   children: React.ReactNode
   heading?: string
+  topSection?: React.ReactNode
 }
 
-const Layout = ({ children, heading }: Props) => {
+const Layout = ({ children, heading, topSection }: Props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -31,17 +33,11 @@ const Layout = ({ children, heading }: Props) => {
       {heading && (
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       )}
-      <div>
-        <main>{children}</main>
-        {/* <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer> */}
+      {topSection && <section>{topSection}</section>}
+      <div className="relative max-w-screen-lg mx-auto">
+        <Nav />
+        <main className="relative">{children}</main>
+        <footer>Footer</footer>
       </div>
     </>
   )
