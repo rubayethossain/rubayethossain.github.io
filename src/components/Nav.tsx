@@ -15,36 +15,41 @@ const Nav = () => {
   }
 
   return (
-    <aside className="w-32">
+    <aside>
       <ul>
         <li>
-          <NavItem onClick={changeRoute.bind(null, "/")} icon={faDiceD6}>
-            Home
-          </NavItem>
+          <NavItem
+            onClick={changeRoute.bind(null, "/")}
+            icon={faDiceD6}
+            className="mb-3"
+            title="Home"
+          />
         </li>
 
         <li>
-          <NavItem onClick={changeRoute.bind(null, "/works")} icon={faCode}>
-            Works
-          </NavItem>
+          <NavItem
+            onClick={changeRoute.bind(null, "/works")}
+            icon={faCode}
+            className="mb-3"
+            title="Works"
+          />
         </li>
 
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/resume")}
             icon={faAddressCard}
-          >
-            Resume
-          </NavItem>
+            className="mb-3"
+            title="Resume"
+          />
         </li>
 
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/contact")}
             icon={faEnvelope}
-          >
-            Contact
-          </NavItem>
+            title="Contact"
+          />
         </li>
       </ul>
     </aside>
