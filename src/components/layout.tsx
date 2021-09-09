@@ -37,7 +37,9 @@ const Layout = ({ children, heading, topSection }: Props) => {
       <div className="relative max-w-screen-lg mx-auto">
         <div className="flex">
           <Nav />
-          <main className="relative flex-1 ml-10 bg-white">{children}</main>
+          <main className="relative flex-1 ml-10 bg-white py-6 px-5">
+            {children}
+          </main>
         </div>
         <footer>Footer</footer>
       </div>
