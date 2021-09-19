@@ -20,7 +20,7 @@ const Intro = (): JSX.Element => {
           className=""
         />
         <div className="p-8 space-y-4">
-          <h1 className="text-3xl font-bold">Md. Rubayet Hossain</h1>
+          <h2 className="text-3xl font-bold uppercase">Md. Rubayet Hossain</h2>
           <h2 className="text-2xl font-semibold ">
             Professional Frontend Developer
           </h2>

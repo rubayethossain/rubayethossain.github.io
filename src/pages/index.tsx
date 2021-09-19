@@ -4,13 +4,13 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Intro from "../components/Intro"
-import { SectionHeading } from "../components/Typography"
+import { PageHeading } from "../components/Typography"
 
 const IndexPage = () => (
   <Layout topSection={<Intro />}>
     <Seo title="Welcome" />
 
-    <SectionHeading>Myself</SectionHeading>
+    <PageHeading>Myself</PageHeading>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolore
       temporibus culpa qui obcaecati porro dolorum ut voluptatum error? Illum
