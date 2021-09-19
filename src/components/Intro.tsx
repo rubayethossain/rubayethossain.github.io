@@ -33,28 +33,36 @@ const Intro = (): JSX.Element => {
 
       <div className="p-8 w-80">
         <div className="mb-4">
-          <h3>Location</h3>
+          <h3 className="font-bold">Location</h3>
           <p className="font-semibold text-gray-600">Dhaka, Bangladesh</p>
         </div>
 
         <div className="mb-4">
-          <h3>Email</h3>
+          <h3 className="font-bold">Email</h3>
           <p className="font-semibold text-gray-600">hi@rubayet.dev</p>
         </div>
 
         <div>
           <ul>
             <li className="inline-block mr-2">
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <a href="#">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
             </li>
             <li className="inline-block mx-2">
-              <FontAwesomeIcon icon={faTwitter} />
+              <a href="#">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
             </li>
             <li className="inline-block mx-2">
-              <FontAwesomeIcon icon={faGithub} />
+              <a href="#">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
             </li>
             <li className="inline-block ml-2">
-              <FontAwesomeIcon icon={faMedium} />
+              <a href="#">
+                <FontAwesomeIcon icon={faMedium} />
+              </a>
             </li>
           </ul>
         </div>
