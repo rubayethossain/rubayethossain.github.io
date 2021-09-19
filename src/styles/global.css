@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto+Slab:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base{
     html{
@@ -13,12 +12,25 @@
         background: -webkit-linear-gradient(to top, #E5E5BE, #003973) fixed;  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to top, #E5E5BE, #003973) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-repeat: no-repeat;
+        font-weight: 400;
     }
 
-    h1, h2, h3, h4, h5, h6{
-        font-family: 'Roboto Slab', serif;
+    h1{
+        @apply font-bold
+    }
+
+    h2{
+        @apply font-semibold
+    }
+
+    h3{
+        @apply font-medium
     }
 }
+
+@tailwind components;
+
+@tailwind utilities;
 
 @layer utilities{
     .bg-intro{
