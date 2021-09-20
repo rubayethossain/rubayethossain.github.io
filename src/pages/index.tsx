@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import Intro from "../components/Intro"
 import { PageHeading, SectionHeading } from "../components/Typography"
 import PageSection from "../components/Sections/PageSection"
+import { TitleCard } from "../components/Cards"
 
 const IndexPage = () => (
   <Layout topSection={<Intro />}>
@@ -23,7 +24,12 @@ const IndexPage = () => (
 
     <PageSection>
       <SectionHeading>What I do</SectionHeading>
-      <div className="grid grid-cols-3"></div>
+      <div className="grid grid-cols-2 gap-8">
+        <TitleCard title="Web Design" />
+        <TitleCard title="Web Development" />
+        <TitleCard title="Custom Solution" />
+        <TitleCard title="Mobile App Development" />
+      </div>
     </PageSection>
   </Layout>
 )
