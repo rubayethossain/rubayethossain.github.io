@@ -10,7 +10,7 @@ import {
 
 const Intro = (): JSX.Element => {
   return (
-    <header className="mx-auto max-w-screen-lg rounded-2xl rounded-tr-none rounded-bl-none shadow-md bg-white flex overflow-hidden my-10">
+    <header className="mx-auto max-w-screen-lg shadow-md bg-white flex overflow-hidden my-10">
       <div className="flex">
         <StaticImage
           src="../images/rubayet.jpg"
