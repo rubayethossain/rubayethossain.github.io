@@ -22,7 +22,8 @@ const IndexPage = () => (
     </PageSection>
 
     <PageSection>
-      <SectionHeading>Skills</SectionHeading>
+      <SectionHeading>What I do</SectionHeading>
+      <div className="grid grid-cols-3"></div>
     </PageSection>
   </Layout>
 )
