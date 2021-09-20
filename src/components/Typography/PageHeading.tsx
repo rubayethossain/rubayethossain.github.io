@@ -5,7 +5,7 @@ interface Props {
 }
 
 const PageHeading = (props: Props) => {
-  return <h1 className="mb-5 text-3xl text-gray-700	">{props.children}</h1>
+  return <h1 className="mb-5 text-4xl text-gray-700	">{props.children}</h1>
 }
 
 export default PageHeading
