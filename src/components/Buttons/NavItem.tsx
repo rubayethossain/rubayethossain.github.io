@@ -17,8 +17,8 @@ const NavItem = ({ title, onClick, className, style, icon }: Props) => {
       className={`flex flex-col items-center justify-center w-28 h-24 border bg-white ${className}`}
       style={style}
     >
-      <FontAwesomeIcon icon={icon} className="text-xl mb-3" />
-      <h3 className="font-semibold uppercase">{title}</h3>
+      <FontAwesomeIcon icon={icon} className=" text-lg mb-3" />
+      <h3 className="font-semibold">{title}</h3>
     </button>
   )
 }
