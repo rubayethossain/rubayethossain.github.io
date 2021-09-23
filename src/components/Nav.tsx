@@ -1,12 +1,6 @@
 import { navigate } from "gatsby"
 import React from "react"
 import { NavItem } from "./Buttons"
-import {
-  faDiceD6,
-  faCode,
-  faAddressCard,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons"
 
 const Nav = () => {
   const changeRoute = (path: string): void => {
@@ -20,7 +14,7 @@ const Nav = () => {
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/")}
-            icon={faDiceD6}
+            icon={<i className="flaticon-id-card"></i>}
             className="mb-3"
             title="Home"
           />
@@ -29,7 +23,7 @@ const Nav = () => {
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/works")}
-            icon={faCode}
+            icon={<i className="flaticon-working"></i>}
             className="mb-3"
             title="Works"
           />
@@ -38,7 +32,7 @@ const Nav = () => {
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/resume")}
-            icon={faAddressCard}
+            icon={<i className="flaticon-online-resume"></i>}
             className="mb-3"
             title="Resume"
           />
@@ -47,7 +41,7 @@ const Nav = () => {
         <li>
           <NavItem
             onClick={changeRoute.bind(null, "/contact")}
-            icon={faEnvelope}
+            icon={<i className="flaticon-communicate"></i>}
             title="Contact"
           />
         </li>

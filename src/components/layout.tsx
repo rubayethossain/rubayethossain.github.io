@@ -41,7 +41,7 @@ const Layout = ({ children, heading, topSection }: Props) => {
             {children}
           </main>
         </div>
-        <footer>Footer</footer>
+        <footer></footer>
       </div>
     </>
   )

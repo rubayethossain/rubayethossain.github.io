@@ -25,10 +25,22 @@ const IndexPage = () => (
     <PageSection>
       <SectionHeading>What I do</SectionHeading>
       <div className="grid grid-cols-2 gap-8">
-        <TitleCard title="Web Design" />
-        <TitleCard title="Web Development" />
-        <TitleCard title="Custom Solution" />
-        <TitleCard title="Mobile App Development" />
+        <TitleCard
+          title="Web Design"
+          icon={<i className="flaticon-html"></i>}
+        />
+        <TitleCard
+          title="Web Development"
+          icon={<i className="flaticon-js"></i>}
+        />
+        <TitleCard
+          title="Custom Solution"
+          icon={<i className="flaticon-idea"></i>}
+        />
+        <TitleCard
+          title="Mobile App Development"
+          icon={<i className="flaticon-smartphone"></i>}
+        />
       </div>
     </PageSection>
   </Layout>
