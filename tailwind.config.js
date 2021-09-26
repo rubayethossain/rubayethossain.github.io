@@ -5,7 +5,15 @@ module.exports = {
     fontFamily: {
       sans: ['"Quicksand"', "sans-serif"],
     },
-    extend: {},
+    extend: {
+      textColor: {
+        linkedin: "#0a66c2",
+        github: "#035bd6",
+        twitter: "#1d9bf0",
+        medium: "#191919",
+        stackOverflow: "#f48225",
+      },
+    },
   },
   variants: {
     extend: {},
