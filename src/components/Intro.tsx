@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import SocialList from "./SocialList"
 
 const Intro = (): JSX.Element => {
   return (
@@ -10,7 +11,7 @@ const Intro = (): JSX.Element => {
         quality={85}
         alt="Md. Ruabyet Hossain"
       />
-      <div className="p-8 space-y-4 flex-1">
+      <div className="p-8 space-y-5 flex-1">
         <h2 className="text-3xl font-bold uppercase text-gray-700">
           Md. Rubayet Hossain
         </h2>
@@ -18,38 +19,12 @@ const Intro = (): JSX.Element => {
           Professional Frontend Developer
         </h2>
 
-        <ul>
-          <li className="inline-block mr-2">
-            <a href="#">
-              <i className="flaticon-linkedin"></i>
-            </a>
-          </li>
-          <li className="inline-block mx-2">
-            <a href="#">
-              <i className="flaticon-github"></i>
-            </a>
-          </li>
-          <li className="inline-block mx-2">
-            <a href="#">
-              <i className="flaticon-stack-overflow"></i>
-            </a>
-          </li>
-          <li className="inline-block mx-2">
-            <a href="#">
-              <i className="flaticon-medium"></i>
-            </a>
-          </li>
-          <li className="inline-block ml-2">
-            <a href="#">
-              <i className="flaticon-twitter"></i>
-            </a>
-          </li>
-        </ul>
+        <SocialList />
       </div>
 
       <div className="p-8 space-y-4 w-64">
         <div>
-          <h3 className="font-bold">Currently Working</h3>
+          <h3 className="font-bold">Working @</h3>
           <p className="font-semibold text-gray-600">CEFALO Bangladesh</p>
         </div>
 
