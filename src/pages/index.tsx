@@ -7,6 +7,8 @@ import Intro from "../components/Intro"
 import { PageHeading, SectionHeading } from "../components/Typography"
 import PageSection from "../components/Sections/PageSection"
 import { TitleCard } from "../components/Cards"
+import { BoxIconTag } from "../components/Tags"
+import reactIcon from "../images/react.svg"
 
 const IndexPage = () => (
   <Layout topSection={<Intro />}>
@@ -42,6 +44,12 @@ const IndexPage = () => (
           icon={<i className="flaticon-smartphone"></i>}
         />
       </div>
+    </PageSection>
+
+    <PageSection>
+      <SectionHeading>My Tools</SectionHeading>
+
+      <BoxIconTag icon={reactIcon} title="React" />
     </PageSection>
   </Layout>
 )
