@@ -81,6 +81,10 @@ const IndexPage = () => (
         <BoxIconTag icon={gitLogo} title="Git" className="w-full" />
       </div>
     </PageSection>
+
+    <PageSection>
+      <SectionHeading>Projects</SectionHeading>
+    </PageSection>
   </Layout>
 )
 
