@@ -50,18 +50,18 @@ const IndexPage = () => (
       <SectionHeading>My Tools</SectionHeading>
 
       <div className="grid grid-cols-6 gap-5">
+        <BoxIconTag icon={reactIcon} title="TypeScript" className="w-full" />
         <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
-        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Redux" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Next" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Tailwind" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Testing" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="HTML" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="CSS" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Sass" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Styled" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Git" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="Docker" className="w-full" />
       </div>
     </PageSection>
   </Layout>
