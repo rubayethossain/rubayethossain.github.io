@@ -49,7 +49,20 @@ const IndexPage = () => (
     <PageSection>
       <SectionHeading>My Tools</SectionHeading>
 
-      <BoxIconTag icon={reactIcon} title="React" />
+      <div className="grid grid-cols-6 gap-5">
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+      </div>
     </PageSection>
   </Layout>
 )
