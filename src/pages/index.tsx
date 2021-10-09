@@ -50,18 +50,18 @@ const IndexPage = () => (
       <SectionHeading>My Tools</SectionHeading>
 
       <div className="grid grid-cols-6 gap-5">
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
-        <BoxIconTag icon={reactIcon} title="React" style={{ width: "100%" }} />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
+        <BoxIconTag icon={reactIcon} title="React" className="w-full" />
       </div>
     </PageSection>
   </Layout>
