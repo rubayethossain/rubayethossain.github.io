@@ -15,8 +15,12 @@ const BoxIconTag = ({ icon, title, className, style }: Props) => {
       }`}
       style={style}
     >
-      <div className="flex-1 flex flex-col justify-center">
-        <img src={icon} alt={title} className="h-12 block mx-auto max-w-full" />
+      <div className="flex-1 flex flex-col justify-center px-2">
+        <img
+          src={icon}
+          alt={title}
+          className="max-h-12 block mx-auto max-w-full self-baseline"
+        />
       </div>
 
       <p className="text-center border-gray-700 font-semibold bg-gray-700 text-white">
