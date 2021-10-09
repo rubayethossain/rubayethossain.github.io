@@ -22,10 +22,33 @@ import {
   tailwindLogo,
   typescriptLogo,
 } from "../images"
+import Slider from "react-slick"
+import { Helmet } from "react-helmet"
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+}
 
 const IndexPage = () => (
   <Layout topSection={<Intro />}>
     <Seo title="Welcome" />
+
+    <Helmet>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
+    </Helmet>
 
     <PageSection>
       <PageHeading>About Myself</PageHeading>
@@ -84,6 +107,15 @@ const IndexPage = () => (
 
     <PageSection>
       <SectionHeading>Projects</SectionHeading>
+      <div style={{ maxWidth: 792 }}>
+        <Slider {...settings}>
+          <div>Slide</div>
+          <div>Slide</div>
+          <div>Slide</div>
+          <div>Slide</div>
+          <div>Slide</div>
+        </Slider>
+      </div>
     </PageSection>
   </Layout>
 )
