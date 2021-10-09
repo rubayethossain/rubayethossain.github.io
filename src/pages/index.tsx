@@ -62,7 +62,7 @@ const IndexPage = () => (
     <PageSection>
       <SectionHeading>My Tools</SectionHeading>
 
-      <div className="grid grid-cols-6 gap-5">
+      <div className="grid grid-cols-4 gap-5">
         <BoxIconTag icon={htmlLogo} title="HTML" className="w-full" />
         <BoxIconTag icon={cssLogo} title="CSS" className="w-full" />
         <BoxIconTag
