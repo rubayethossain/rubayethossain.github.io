@@ -34,7 +34,7 @@ const Layout = ({ children, heading, topSection }: Props) => {
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       )}
       {topSection && <section>{topSection}</section>}
-      <div className="relative max-w-screen-lg mx-auto">
+      <div className="relative max-w-screen-lg mx-auto pb-10">
         <div className="flex">
           <Nav />
           <main className="relative flex-1 ml-10 bg-white p-10">
