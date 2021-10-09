@@ -63,6 +63,8 @@ const IndexPage = () => (
       <SectionHeading>My Tools</SectionHeading>
 
       <div className="grid grid-cols-6 gap-5">
+        <BoxIconTag icon={htmlLogo} title="HTML" className="w-full" />
+        <BoxIconTag icon={cssLogo} title="CSS" className="w-full" />
         <BoxIconTag
           icon={typescriptLogo}
           title="TypeScript"
@@ -71,14 +73,12 @@ const IndexPage = () => (
         <BoxIconTag icon={reactLogo} title="React" className="w-full" />
         <BoxIconTag icon={reduxLogo} title="Redux" className="w-full" />
         <BoxIconTag icon={nextLogo} title="Next" className="w-full" />
+        <BoxIconTag icon={styledLogo} title="Styled" className="w-full" />
+        <BoxIconTag icon={sassLogo} title="Sass" className="w-full" />
         <BoxIconTag icon={tailwindLogo} title="Tailwind" className="w-full" />
         <BoxIconTag icon={rttLogo} title="Testing" className="w-full" />
-        <BoxIconTag icon={htmlLogo} title="HTML" className="w-full" />
-        <BoxIconTag icon={cssLogo} title="CSS" className="w-full" />
-        <BoxIconTag icon={sassLogo} title="Sass" className="w-full" />
-        <BoxIconTag icon={styledLogo} title="Styled" className="w-full" />
-        <BoxIconTag icon={gitLogo} title="Git" className="w-full" />
         <BoxIconTag icon={dockerLogo} title="Docker" className="w-full" />
+        <BoxIconTag icon={gitLogo} title="Git" className="w-full" />
       </div>
     </PageSection>
   </Layout>
