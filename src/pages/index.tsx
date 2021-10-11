@@ -29,8 +29,10 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToShow: 4,
+  slidesToScroll: 3,
+  arrows: false,
+  autoplay: true,
 }
 
 const IndexPage = () => (
@@ -109,11 +111,15 @@ const IndexPage = () => (
       <SectionHeading>Projects</SectionHeading>
       <div style={{ maxWidth: 792 }}>
         <Slider {...settings}>
-          <div>Slide</div>
-          <div>Slide</div>
-          <div>Slide</div>
-          <div>Slide</div>
-          <div>Slide</div>
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={dockerLogo} alt="" className="max-w-full p-5" />
         </Slider>
       </div>
     </PageSection>
