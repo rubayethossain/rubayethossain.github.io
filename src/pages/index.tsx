@@ -116,7 +116,7 @@ const IndexPage = () => (
 
     <PageSection>
       <SectionHeading>Projects</SectionHeading>
-      <div style={{ maxWidth: 792 }}>
+      <div style={{ maxWidth: 792 }} className="projects-slider">
         <Slider {...settings}>
           <img src={houseOfMathLogo} alt="" className="max-w-full p-5" />
           <img src={liftMarketingLogo} alt="" className="max-w-full p-5" />

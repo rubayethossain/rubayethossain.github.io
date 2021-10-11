@@ -32,6 +32,10 @@
     h3{
         @apply font-medium
     }
+
+    .projects-slider .slick-track{
+        @apply flex items-center;
+    }
 };
 
 @layer utilities{
