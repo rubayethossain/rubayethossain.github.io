@@ -39,7 +39,7 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 3,
   arrows: false,
-  autoplay: true,
+  // autoplay: true,
 }
 
 const IndexPage = () => (
@@ -118,13 +118,13 @@ const IndexPage = () => (
       <SectionHeading>Projects</SectionHeading>
       <div style={{ maxWidth: 792 }} className="projects-slider">
         <Slider {...settings}>
-          <img src={houseOfMathLogo} alt="" className="max-w-full p-5" />
-          <img src={liftMarketingLogo} alt="" className="max-w-full p-5" />
-          <img src={serviceNodeLogo} alt="" className="max-w-full p-5" />
-          <img src={taxriseLogo} alt="" className="max-w-full p-5" />
-          <img src={legalRoomLogo} alt="" className="max-w-full p-5" />
-          <img src={resulternaLogo} alt="" className="max-w-full p-5" />
-          <img src={romaniaLogo} alt="" className="max-w-full p-5" />
+          <img src={houseOfMathLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={liftMarketingLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={serviceNodeLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={taxriseLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={legalRoomLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={resulternaLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img src={romaniaLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
         </Slider>
       </div>
     </PageSection>

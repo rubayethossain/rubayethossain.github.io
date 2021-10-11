@@ -36,6 +36,11 @@
     .projects-slider .slick-track{
         @apply flex items-center;
     }
+
+    .projects-slider img.slide{
+        width: auto !important;
+        display: block !important;
+    }
 };
 
 @layer utilities{
