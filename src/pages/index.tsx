@@ -12,14 +12,21 @@ import {
   cssLogo,
   dockerLogo,
   gitLogo,
+  houseOfMathLogo,
   htmlLogo,
+  legalRoomLogo,
+  liftMarketingLogo,
   nextLogo,
   reactLogo,
   reduxLogo,
+  resulternaLogo,
+  romaniaLogo,
   rttLogo,
   sassLogo,
+  serviceNodeLogo,
   styledLogo,
   tailwindLogo,
+  taxriseLogo,
   typescriptLogo,
 } from "../images"
 import Slider from "react-slick"
@@ -32,7 +39,7 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 3,
   arrows: false,
-  autoplay: true
+  autoplay: true,
 }
 
 const IndexPage = () => (
@@ -111,15 +118,13 @@ const IndexPage = () => (
       <SectionHeading>Projects</SectionHeading>
       <div style={{ maxWidth: 792 }}>
         <Slider {...settings}>
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
-          <img src={dockerLogo} alt="" className="max-w-full p-5" />
+          <img src={houseOfMathLogo} alt="" className="max-w-full p-5" />
+          <img src={liftMarketingLogo} alt="" className="max-w-full p-5" />
+          <img src={serviceNodeLogo} alt="" className="max-w-full p-5" />
+          <img src={taxriseLogo} alt="" className="max-w-full p-5" />
+          <img src={legalRoomLogo} alt="" className="max-w-full p-5" />
+          <img src={resulternaLogo} alt="" className="max-w-full p-5" />
+          <img src={romaniaLogo} alt="" className="max-w-full p-5" />
         </Slider>
       </div>
     </PageSection>
