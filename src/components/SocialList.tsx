@@ -2,7 +2,7 @@ import React from "react"
 
 const SocialList = (): JSX.Element => {
   return (
-    <ul>
+    <ul className="text-center sm:text-left">
       <li className="inline-block mr-2">
         <a
           href="#"
