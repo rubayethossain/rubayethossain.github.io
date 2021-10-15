@@ -33,13 +33,15 @@ const Layout = ({ children, heading, topSection }: Props) => {
       {heading && (
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       )}
-      {topSection && <section>{topSection}</section>}
-      <div className="relative max-w-screen-lg mx-auto pb-10">
-        <div className="flex">
+      {topSection && (
+        <section className="p-4 sm:py-6 lg:py-10">{topSection}</section>
+      )}
+      <div className="relative max-w-screen-lg mx-4 lg:mx-auto pb-10">
+        <div className="flex lg:px-4">
           <div className="hidden md:block">
             <Nav />
           </div>
-          <main className="relative flex-1 md:ml-10 bg-white p-10">
+          <main className="relative flex-1 md:ml-4 bg-white p-10">
             {children}
           </main>
         </div>

@@ -39,7 +39,31 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 3,
   arrows: false,
-  // autoplay: true,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 }
 
 const IndexPage = () => (
@@ -71,7 +95,7 @@ const IndexPage = () => (
 
     <PageSection>
       <SectionHeading>What I do</SectionHeading>
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <TitleCard
           title="Web Design"
           icon={<i className="flaticon-html"></i>}
@@ -94,7 +118,7 @@ const IndexPage = () => (
     <PageSection>
       <SectionHeading>Technologies & Tools</SectionHeading>
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         <BoxIconTag icon={htmlLogo} title="HTML" className="w-full" />
         <BoxIconTag icon={cssLogo} title="CSS" className="w-full" />
         <BoxIconTag
@@ -114,20 +138,48 @@ const IndexPage = () => (
       </div>
     </PageSection>
 
-    <PageSection>
+    {/* <PageSection>
       <SectionHeading>Projects</SectionHeading>
-      <div style={{ maxWidth: 792 }} className="projects-slider">
+      <div style={{ width: "100%" }} className="projects-slider">
         <Slider {...settings}>
-          <img src={houseOfMathLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={liftMarketingLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={serviceNodeLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={taxriseLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={legalRoomLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={resulternaLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
-          <img src={romaniaLogo} alt="" className="px-5 mx-auto max-h-16 slide" />
+          <img
+            src={houseOfMathLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={liftMarketingLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={serviceNodeLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={taxriseLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={legalRoomLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={resulternaLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
+          <img
+            src={romaniaLogo}
+            alt=""
+            className="px-5 mx-auto max-h-16 slide"
+          />
         </Slider>
       </div>
-    </PageSection>
+    </PageSection> */}
   </Layout>
 )
 

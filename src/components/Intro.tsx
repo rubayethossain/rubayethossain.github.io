@@ -4,7 +4,7 @@ import SocialList from "./SocialList"
 
 const Intro = (): JSX.Element => {
   return (
-    <header className="mx-auto my-4 sm:mx-4 lg:mx-auto lg:my-10 max-w-xs sm:max-w-screen-lg shadow-md bg-white flex flex-col sm:flex-row overflow-hidden">
+    <header className="lg:mx-auto sm:max-w-screen-lg shadow-md bg-white flex flex-col sm:flex-row overflow-hidden">
       <StaticImage
         src="../images/rubayet.jpg"
         width={215}
