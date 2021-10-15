@@ -36,8 +36,10 @@ const Layout = ({ children, heading, topSection }: Props) => {
       {topSection && <section>{topSection}</section>}
       <div className="relative max-w-screen-lg mx-auto pb-10">
         <div className="flex">
-          <Nav />
-          <main className="relative flex-1 ml-10 bg-white p-10">
+          <div className="hidden md:block">
+            <Nav />
+          </div>
+          <main className="relative flex-1 md:ml-10 bg-white p-10">
             {children}
           </main>
         </div>
