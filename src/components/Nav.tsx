@@ -31,7 +31,10 @@ const Nav = () => {
 
         <li>
           <NavItem
-            onClick={changeRoute.bind(null, "/resume")}
+            onClick={changeRoute.bind(
+              null,
+              "https://docs.google.com/document/d/1oiaS8ZktDhQN_OPtx9MwchIo_5txLO5vHtSHFPcpt4Y/export?format=pdf"
+            )}
             icon={<i className="flaticon-online-resume"></i>}
             className="mb-3"
             title="Resume"
