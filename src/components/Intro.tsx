@@ -27,22 +27,22 @@ const Intro = (): JSX.Element => {
 
       <div className="p-5 sm:p-8 space-y-3 sm:space-y-4 sm:w-64">
         <div className="text-center sm:text-left">
-          <h3 className="font-bold mb-1">Working @</h3>
-          <p>
+          <h3 className="font-bold mb-2">Working @</h3>
+          <p className="text-sm font-semibold">
             <TextTag>CEFALO</TextTag>
           </p>
         </div>
 
         <div className="text-center sm:text-left">
-          <h3 className="font-bold mb-1">Location</h3>
-          <p>
+          <h3 className="font-bold mb-2">Location</h3>
+          <p className="text-sm font-semibold">
             <TextTag>Dhaka, Bangladesh</TextTag>
           </p>
         </div>
 
         <div className="text-center sm:text-left">
-          <h3 className="font-bold mb-1">Email</h3>
-          <p>
+          <h3 className="font-bold mb-2">Email</h3>
+          <p className="text-sm font-semibold">
             <TextTag>hi@rubayet.dev</TextTag>
           </p>
         </div>
