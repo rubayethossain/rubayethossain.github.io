@@ -5,13 +5,16 @@ interface Props {
   style?: React.CSSProperties
   icon: JSX.Element
   title: string
+  active?: boolean
 }
 
-const NavItem = ({ title, onClick, className, style, icon }: Props) => {
+const NavItem = ({ title, onClick, className, style, icon, active }: Props) => {
   return (
     <button
       onClick={onClick}
-      className={`flex flex-col items-center justify-center w-24 h-24 bg-white hover:text-indigo-500 transition-colors duration-300 rounded border-2 border-indigo-500 ${className}`}
+      className={`flex flex-col items-center justify-center w-24 h-24 bg-white hover:text-indigo-500 transition-colors duration-300 rounded border-2 border-indigo-500 ${
+        active && "text-indigo-500"
+      } ${className}`}
       style={style}
     >
       <span className=" text-2xl">{icon}</span>
