@@ -1,2 +1,4 @@
 import BoxIconTag from "./BoxIconTag"
-export { BoxIconTag }
+import TextTag from "./TextTag"
+
+export { BoxIconTag, TextTag }
