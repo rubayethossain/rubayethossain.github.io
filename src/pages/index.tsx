@@ -3,7 +3,6 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Intro from "../components/Intro"
 import { PageHeading, SectionHeading } from "../components/Typography"
 import PageSection from "../components/Sections/PageSection"
 import { TitleCard } from "../components/Cards"
@@ -67,7 +66,7 @@ const settings = {
 }
 
 const IndexPage = () => (
-  <Layout topSection={<Intro />}>
+  <Layout>
     <Seo title="Welcome" />
 
     <Helmet>

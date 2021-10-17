@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Nav from "./Nav"
+import Intro from "./Intro"
 
 type Props = {
   children: React.ReactNode
@@ -33,9 +34,9 @@ const Layout = ({ children, heading, topSection }: Props) => {
       {heading && (
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       )}
-      {topSection && (
-        <section className="p-4 sm:py-6 lg:py-10">{topSection}</section>
-      )}
+      <section className="p-4 sm:py-6 lg:py-10">
+        <Intro />
+      </section>
       <div className="relative max-w-screen-lg mx-4 lg:mx-auto pb-10">
         <div className="flex lg:px-4">
           <div className="hidden md:block">
