@@ -15,10 +15,9 @@ import Intro from "./Intro"
 type Props = {
   children: React.ReactNode
   heading?: string
-  topSection?: React.ReactNode
 }
 
-const Layout = ({ children, heading, topSection }: Props) => {
+const Layout = ({ children, heading }: Props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
