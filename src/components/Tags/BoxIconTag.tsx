@@ -1,4 +1,5 @@
 import React, { CSSProperties } from "react"
+import { TextTag } from "."
 
 interface Props {
   icon: string
@@ -9,12 +10,7 @@ interface Props {
 
 const BoxIconTag = ({ icon, title, className, style }: Props) => {
   return (
-    <div
-      className={`w-24 h-24 border-2 border-green-500 rounded overflow-hidden flex flex-col ${
-        className || ""
-      }`}
-      style={style}
-    >
+    <div className={`w-24 h-24 flex flex-col ${className || ""}`} style={style}>
       <div className="flex-1 flex flex-col justify-center px-2">
         <img
           src={icon}
@@ -23,8 +19,8 @@ const BoxIconTag = ({ icon, title, className, style }: Props) => {
         />
       </div>
 
-      <p className="text-center font-semibold bg-green-500 text-white">
-        {title}
+      <p className="text-center font-semibold">
+        <TextTag>{title}</TextTag>
       </p>
     </div>
   )
