@@ -85,10 +85,16 @@ const IndexPage = () => (
     <PageSection>
       <PageHeading>About Myself</PageHeading>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolore
-        temporibus culpa qui obcaecati porro dolorum ut voluptatum error? Illum
-        magni, debitis, blanditiis deserunt molestias cupiditate assumenda
-        quidem totam voluptas, quam amet.
+        Professional Front-end Developer with 6+ years of experience in working
+        with multiple software companies! Extensive knowledge and working
+        experience in React, React-Hooks, Redux, TypeScript, Jest, JavaScript,
+        jQuery, Bootstrap, HTML, and CSS. Responsive in working with new
+        libraries and frameworks. Love to solve real-life problems with
+        optimized solutions. My Friendly, Dedicated, Responsible, and
+        Hard-working attitude is always admired by my colleagues and managers.
+        Always hungry for new challenges! Currently, open for the position of
+        Front-end Developer to continue career growth into Lead Front-end
+        Developer.
       </p>
     </PageSection>
 
