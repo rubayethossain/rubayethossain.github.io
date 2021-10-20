@@ -84,7 +84,7 @@ const IndexPage = () => (
 
     <PageSection>
       <PageHeading>About Myself</PageHeading>
-      <p>
+      <p className="leading-6">
         Professional Front-end Developer with 6+ years of experience in working
         with multiple software companies! Extensive knowledge and working
         experience in React, React-Hooks, Redux, TypeScript, Jest, JavaScript,
