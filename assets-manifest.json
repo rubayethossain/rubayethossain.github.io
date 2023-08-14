@@ -1,0 +1,10 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/docker.png": "static/docker-646e5451445f2e1f98ba2e5ee31711ad.png",
+  "static/legal-room.png": "static/legal-room-9136abb5c69c67a893f5697b512d7e26.png",
+  "static/resulterna.jpg": "static/resulterna-1464536dc334280ddf684b3f04ae10ee.jpg",
+  "static/romania-food.png": "static/romania-food-a77ac387601c7191dfc25bfc874cf8aa.png",
+  "static/service-node.svg": "static/service-node-0737e8ca2b0f98a6ae80c35a401128c2.svg",
+  "static/styled.png": "static/styled-0fefccb0a398bba4476665241e2ae772.png"
+}
